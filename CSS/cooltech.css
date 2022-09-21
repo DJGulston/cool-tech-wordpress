@@ -1,0 +1,38 @@
+*, .site-title, .site-description, .menu-item a, .entry-title, div.entry-content h1, 
+.page-title, h2, #post-1133 > div > ul, #block-3 > div > div > ul a, 
+#post-1133 > div > ul > li:nth-child(n) > div.wp-block-latest-posts__post-excerpt, 
+#post-1133 > div > ul > li:nth-child(n) > a {
+	font-family:'Impact';
+}
+
+.site-title, h1, .entry-title, #colophon > div > div.site-name > a {
+	color:#118AB2;
+}
+
+#masthead > div > p.site-title > a, h1.entry-title, h1.page-title, h1, h2, 
+h3, h4, h5, h6, #post-1133 > div > ul > li > a {
+	font-weight:bold;
+}
+
+.entry-title a, .tags-links a, .cat-links a, a.customize-unpreviewable, 
+.entry-content a, .url.customize-unpreviewable, .comment-reply-link, 
+a.wp-block-latest-posts__post-title, #block-3 > div > div > ul a, 
+#block-4 > div > div > ol a, #block-5 > div > div > ul a, #block-6 > div > div > ul a, 
+#primary-menu-list a, .nav-links a.page-numbers, .posted-by a, 
+#colophon > div > div.powered-by > a, #commentform > p.logged-in-as a, #comments > ol a {
+	color:#EE6C4D;
+}
+
+ol, ul {
+	text-align:right;
+}
+
+/*
+ * References:
+ * 
+ * How to align a list and its bullet points to the right:
+ * - https://css-tricks.com/forums/topic/aligning-list-items-and-bullets-to-the-right/
+ * 
+ * Note that I decided not to right align the bullet points as well. Only the list itself has been right aligned.
+ *
+ */
